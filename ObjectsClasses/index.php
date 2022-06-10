@@ -3,10 +3,12 @@ class TV {  // class with name
     public $model="xyz";
     public $valume = 1;
 
-    function valumeUp(){
-        $this->vlume++;
+    function valumeUp()
+    {
+        $this->valume++;
     }
-    function valumeDown(){
+    function valumeDown()
+    {
         $this->valume--;
     }
 }
@@ -14,7 +16,4 @@ class TV {  // class with name
 $tv_one = new TV; // Object declear 
 $tv_two = new TV; // Object declear 
 
-echo $tv_one->valume;
-
-
-?>
+echo $tv_one->valumeUp();
