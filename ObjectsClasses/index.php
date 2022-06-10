@@ -16,4 +16,5 @@ class TV {  // class with name
 $tv_one = new TV; // Object declear 
 $tv_two = new TV; // Object declear 
 
-echo $tv_one->valumeUp();
+$tv_one->valumeUp();
+echo $tv_one->valume;
