@@ -17,4 +17,5 @@ $tv_one = new TV; // Object declear
 $tv_two = new TV; // Object declear 
 
 $tv_one->valumeUp();
+echo $tv_one->model."<br>";
 echo $tv_one->valume;
